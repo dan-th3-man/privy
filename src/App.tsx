@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import { usePrivy } from "@privy-io/react-auth"
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const { login, user } = usePrivy();
+  const { login } = usePrivy();
 
   return (
     <>
